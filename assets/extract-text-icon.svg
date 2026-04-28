@@ -1,0 +1,43 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="72" y1="56" x2="438" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF5E8"/>
+      <stop offset="1" stop-color="#FFE0C2"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="140" y1="132" x2="388" y2="372" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A18"/>
+      <stop offset="1" stop-color="#FF4D4F"/>
+    </linearGradient>
+    <filter id="shadow" x="76" y="72" width="360" height="376" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="20"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.772549 0 0 0 0 0.403922 0 0 0 0 0.164706 0 0 0 0.18 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="url(#bg)"/>
+  <circle cx="400" cy="116" r="20" fill="#FFD66B" fill-opacity="0.9"/>
+  <circle cx="112" cy="402" r="14" fill="#FFB27A" fill-opacity="0.7"/>
+
+  <g filter="url(#shadow)">
+    <rect x="116" y="104" width="280" height="296" rx="40" fill="white"/>
+    <path d="M316 104H356C378.091 104 396 121.909 396 144V184L316 104Z" fill="#FFE8D7"/>
+    <rect x="148" y="250" width="216" height="18" rx="9" fill="#FFE3CF"/>
+    <rect x="148" y="286" width="184" height="18" rx="9" fill="#FFE3CF"/>
+    <rect x="148" y="322" width="152" height="18" rx="9" fill="#FFE3CF"/>
+  </g>
+
+  <rect x="154" y="142" width="204" height="84" rx="26" fill="url(#accent)"/>
+  <path d="M194 184C194 171.85 203.85 162 216 162V206C203.85 206 194 196.15 194 184Z" fill="white" fill-opacity="0.96"/>
+  <path d="M318 168C325.732 171.769 331 177.553 331 184C331 190.447 325.732 196.231 318 200" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M291 162C302.598 167.283 310 175.183 310 184C310 192.817 302.598 200.717 291 206" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <rect x="232" y="172" width="32" height="24" rx="12" fill="white"/>
+  <path d="M248 158V210" stroke="white" stroke-width="12" stroke-linecap="round"/>
+
+  <path d="M182 386C208 360 234 347 260 347C286 347 310 360 336 386" stroke="#FF7A18" stroke-width="18" stroke-linecap="round"/>
+  <path d="M200 388H318" stroke="#FF7A18" stroke-width="14" stroke-linecap="round" opacity="0.28"/>
+</svg>
